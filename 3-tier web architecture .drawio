@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T10:42:48.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41" etag="zo3caukgcmRh1mI3p0Zs" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T10:47:01.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41" etag="tFWH6tozVv11woWz-aSI" version="21.3.7" type="github">
   <diagram name="Page-1" id="q4RlhY44dmBAU-IlVTtu">
-    <mxGraphModel dx="1833" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2073" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,14 +23,20 @@
         <mxCell id="lgAd8PWdnQ6ZhwOLEmID-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lgAd8PWdnQ6ZhwOLEmID-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="204.08500000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="195" />
+              <mxPoint x="470" y="204" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lgAd8PWdnQ6ZhwOLEmID-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lgAd8PWdnQ6ZhwOLEmID-2" edge="1">
+        <mxCell id="lgAd8PWdnQ6ZhwOLEmID-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lgAd8PWdnQ6ZhwOLEmID-2" edge="1" target="lgAd8PWdnQ6ZhwOLEmID-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="230" as="targetPoint" />
             <Array as="points">
               <mxPoint x="422" y="210" />
               <mxPoint x="422" y="231" />
+              <mxPoint x="440" y="231" />
+              <mxPoint x="440" y="177" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -52,7 +58,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lgAd8PWdnQ6ZhwOLEmID-12" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; EC2 Intances in an&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Auto Scaling group" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="480" y="49" width="210" height="210" as="geometry" />
+          <mxGeometry x="470" y="49.09" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="lgAd8PWdnQ6ZhwOLEmID-17" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.auto_scaling;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="610.5" y="40" width="79.5" height="76.5" as="geometry" />
@@ -79,7 +85,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lgAd8PWdnQ6ZhwOLEmID-29" value="Users&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lgAd8PWdnQ6ZhwOLEmID-30" value="A SCALABLE 3-TIER WEBAPPLICATION ARCHITECTURE&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry y="-60" width="830" height="60" as="geometry" />
